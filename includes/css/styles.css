@@ -1,0 +1,115 @@
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+#links {
+    text-align: center;
+}
+footer{
+    margin-top: 20px;
+    background:#ececec;
+    color:#333;
+    height: 50px;
+    text-align: center;
+    font-size: 11px;
+    padding: 10px;
+    width:100%;
+    position:fixed;
+    bottom:0px;
+}
+footer h5{
+    position: relative;
+    bottom:25px;
+}
+#search{
+    width: 100px;
+    margin-left:10px;
+    margin-right: 10px;
+}
+#contact{
+    margin-top: 10px;
+}
+#dd {
+    position:relative;
+    top:50px;
+}
+#drop {
+    position: relative;
+    left: 30%;
+    max-width: 350px;
+}
+#inp {
+    position:relative;
+    left:5%;
+    max-width: 350px;
+}
+#inp2 {
+    position:relative;
+    bottom: 90px;
+    left:58%;
+    max-width: 350px;
+}
+#map {
+    margin-top: 70px;
+}
+#mycarousel {
+    margin-top: 60px;
+}
+#cont {
+    position:relative;
+    top:10px;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    tect-rendering: optimizelegibility;
+}
+.well .page-header {
+    margin-top: 0;
+
+}
+
+.well .page-header h2{
+    margin-top: 0;
+}
+
+.ul {
+    list-style: none;
+    padding:0;
+    color: red;
+}
+
+#searchInput {
+    width: 200px;
+}
+.navbar-brand{
+    padding: 13px 15px;
+}
+
+#nav {
+    height: 80px;
+    width: 100%;
+    color: #eeeeee;
+}
+
+.well {
+    margin:20px 0;
+}
+
+form input {
+    max-width: 350px;
+}
+
+@media (max-width: 480px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}
