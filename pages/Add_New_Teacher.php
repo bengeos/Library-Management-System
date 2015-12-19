@@ -76,7 +76,7 @@ if(isset($_GET['page_num']))
             </div>
         </div>
 
-        <div class="col-lg-3" style="position:fixed; left:980px; top: 120px">
+        <div class="col-lg-3" style="position:fixed; right:98px; top: 120px">
             <form class="form-vertical" role="form" method="post" action="">
                 <label>Add New Teacher: </label><br>
                 <label>Full Name: </label>

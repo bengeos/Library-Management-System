@@ -441,7 +441,7 @@ class LMS
 
         }
         $sql .= " GROUP BY call_number";
-
+        $response = array();
         $result = mysqli_query($conn, $sql);
         if($result)
         {

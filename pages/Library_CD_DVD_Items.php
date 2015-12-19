@@ -47,7 +47,7 @@ if(!isset($_GET['page_num']))
                     <label class="label label-success">Category: </label>
                     <select class="form-control" name="cat_id" id="cat_id">
                         <?php
-                        $vals = $engine->get_all_book_categories();
+                        $vals = $engine->get_all_cd_categories();
                        // if(isset($cat_id)){
                             echo '<option value='.$cat_id.'>'.$engine->get_book_cat_name($cat_id)['name'].'</option>';
                         //}
@@ -158,7 +158,7 @@ if(!isset($_GET['page_num']))
                     <label>Category: </label>
                     <select class="form-control"  name="cat_id" id="cat_id">
                         <?php
-                        $vals = $engine->get_all_book_categories();
+                        $vals = $engine->get_all_cd_categories();
                         foreach($vals as $values){
                             echo "<option value='{$values['id']}'>{$values['name']}</option>";
                         }

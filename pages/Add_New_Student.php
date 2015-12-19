@@ -135,7 +135,7 @@ if(!isset($_GET['page_num']))
                 </table>
             </div>
         </div>
-        <div class="col-lg-3" style="position: fixed; left: 980px; bottom: 70px;">
+        <div class="col-lg-3" style="position: fixed; right: 20px; top: 250px;" >
             <h4>Add New Students </h4>
             <form class="form-vertical" role="form" method="post" action="private/Page_Func.php" enctype="multipart/form-data">
                 <div class="col-sm-12 col-md-12 col-lg-12" style="margin-top: 10px">

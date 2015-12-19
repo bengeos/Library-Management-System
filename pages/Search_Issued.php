@@ -113,7 +113,7 @@ if(!isset($_GET['page_num']))
                 </div>
             </div>
         </div>
-        <div class="col-sm-3" style="position: fixed; right:10px;" >
+        <div class="col-sm-3" style="position: fixed; right:20px;" >
 
             <h3> Search Issued </h3>
             <form class="form-horizontal"  method="post" action="Librarian.php?page=search_issued">

@@ -114,10 +114,10 @@ if(!isset($_GET['page_num']))
                 </div>
             </div>
         </div>
-        <div class="col-lg-3 pull-right" style="position: fixed; right:10px">
+        <div class="col-lg-3 pull-right" style="position: fixed; right:20px">
             <form class="form-group"  method="post" action="Librarian.php?page=search_book">
-                <div class="col-lg-12">
-                    <label>Search From: </label>
+                <div class="col-lg-12"><br>
+                    <label class="label label-success">Search From: </label>
                     <select class="form-control" name="from" id="from">
                         <?php
 
@@ -129,8 +129,8 @@ if(!isset($_GET['page_num']))
                         <option value="Store">Store</option>
                     </select>
                 </div><br>
-                <div class="col-lg-12">
-                    <label>Search Category: </label>
+                <div class="col-lg-12"><br>
+                    <label class="label label-success">Search Category: </label>
                     <select class="form-control" name="cat_id" id="cat_id">
                         <?php
                         require_once 'private/LMS_Engine.php';
@@ -146,7 +146,8 @@ if(!isset($_GET['page_num']))
                     </select>
                 </div>
                 <div class="col-lg-12">
-                    <label> Search hint: </label>
+                    <br>
+                    <label class="label label-success"> Search hint: </label>
                     <input type="text" class="form-control" name="hint" placeholder="Search" value="<?php echo $hint; ?>"><br>
                 </div>
                 <div class="col-lg-12">

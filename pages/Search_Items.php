@@ -3,7 +3,7 @@ require_once 'private/LMS_Engine.php';
 $engine = new LMS_Engine();
 ?>
 <div class="container" id="main">
-    <h3>Search Library Books</h3>
+    <h3>Search Library Items</h3>
     <div class="row" id="contact">
         <hr>
         <div class="col-lg-9"  >
@@ -58,7 +58,7 @@ $engine = new LMS_Engine();
                 </table>
             </div>
         </div>
-        <div class="col-lg-3" style="position: fixed; left:980px;" >
+        <div class="col-lg-3" style="position: fixed; right:98px;" >
             <form class="form-horizontal"  method="post" action="">
                 <div class="col-lg-12">
                     <label>Search From: </label>

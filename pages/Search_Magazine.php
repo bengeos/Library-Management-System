@@ -107,10 +107,10 @@ if(!isset($_GET['page_num']))
                 </div>
             </div>
         </div>
-        <div class="col-lg-3" style="position: fixed; left:980px;" >
+        <div class="col-lg-3" style="position: fixed; right:20px;" >
             <form class="form-horizontal"  method="post" action="Librarian.php?page=search_magazine">
                 <div class="col-lg-12">
-                    <label> Search From: </label>
+                    <label class="label label-success"> Search From: </label>
                     <select class="form-control" name="from" id="from">
                         <?php
 
@@ -122,13 +122,14 @@ if(!isset($_GET['page_num']))
                         <option value="Store">Store</option>
                     </select>
                 </div>
-                <div class="col-lg-12">
+
+                <div class="col-lg-12"><br>
                     <label class="label label-success">Search Category: </label>
                     <select class="form-control" name="cat_id" id="cat_id">
                         <?php
                         require_once 'private/LMS_Engine.php';
                         $engine = new LMS_Engine();
-                        $vals = $engine->get_all_book_categories();
+                        $vals = $engine->get_all_mag_categories();
                         if(isset($cat_id)){
                             echo '<option value='.$cat_id.'>'.$engine->get_book_cat_name($cat_id)['name'].'</option>';
                         }
@@ -139,7 +140,8 @@ if(!isset($_GET['page_num']))
                     </select>
                 </div>
                 <div class="col-lg-12">
-                    <label>Search hint: </label>
+                    <br>
+                    <label class="label label-success">Search hint: </label>
                     <input type="text" class="form-control" name="hint" placeholder="Search" value="<?php if(isset($_POST['hint'])){echo $_POST['hint'];}?>"><br>
                 </div>
                 <div class="col-lg-2">

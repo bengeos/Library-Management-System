@@ -42,7 +42,7 @@ if(isset($_COOKIE['user_type'] ) && $_COOKIE['user_type'] == 'Admin'){
 
             <div class="nav-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav">
-                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Search for Items <b class="caret"> </b></a>
+                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"> Manage Users <b class="caret"> </b></a>
                         <ul class="dropdown-menu" role="menu">
                             <li class="divider"></li>
                             <li><a href="?page=admins">Manage Admins</a></li>

@@ -136,9 +136,9 @@ if(isset($_POST['item_users'])){
                             <th><?php if(isset($mag_users)){echo $mag_users;}?></th>
                         </tr>
                         <tr class="table-bordered" style="color: #337ab7; background: #e9e6e6">
-                            <th>Total:</th>
                             <th></th>
-                            <th><?php if(isset($book_count)){echo ($book_count_ST+$mag_count_ST+$cd_count_ST);}?></th>
+                            <th></th>
+                            <th></th>
 
                         </tr>
                         </tbody>

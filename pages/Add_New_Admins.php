@@ -12,6 +12,8 @@ if(isset($_POST)){
 }
 ?>
 <div class="container" id="main">
+    <br>
+    <br>
     <h2><strong>Saint Joseph School</strong> </h2>
     <hr>
     <label class="form-control">Admins</label>

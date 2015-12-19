@@ -87,11 +87,24 @@ if(isset($_POST)){
                     header("Location: ../Librarian.php?page=add_new_student");
                     exit;
                 }else{
-
+                    $val = $engine->update_students($_POST['STD_id'],$_POST['name'],$_POST['grade'],$_POST['section'],"");
+                    if($val == 1){
+                        header("Location: ../Librarian.php?page=add_new_student");
+                        exit;
+                    }else{
+                        header("Location: ../Librarian.php?page=add_new_student");
+                        exit;
+                    }
                 }
             }else{
-
-
+                $val = $engine->update_students($_POST['STD_id'],$_POST['name'],$_POST['grade'],$_POST['section'],"");
+                if($val == 1){
+                    header("Location: ../Librarian.php?page=add_new_student");
+                    exit;
+                }else{
+                    header("Location: ../Librarian.php?page=add_new_student");
+                    exit;
+                }
             }
         }else{
             $val = $engine->update_students($_POST['STD_id'],$_POST['name'],$_POST['grade'],$_POST['section'],"");
